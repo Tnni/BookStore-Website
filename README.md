@@ -30,7 +30,7 @@ Default port number
 3306
 ```
 
-!!! Instruction: First put sql file in to MySQL, and then put the bookstore.war file under webapps, and then startup the Tomcat, visit website http://127.0.0.1:8080/bookstore/ (depend on your tomcat setting)
+!!! Instruction: First put sql file in to MySQL, and then put the code you downloaded from Git and save as bookstore.war file. Put it under webapps, and then startup the Tomcat, visit website http://127.0.0.1:8080/bookstore/ (depend on your Tomcat setting)
 
 
 * Dependency
