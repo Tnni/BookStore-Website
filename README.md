@@ -30,7 +30,7 @@ Default port number
 ```
 * Dependency
 We are using Maven to manage dependencies
-The link to our [pom.xml](https://github.com/Miemie-Yorku/The-Platform-for-Modeling-and-Optimizing-Serverless-Applications/blob/master/requirements.txt)
+The link to our [pom.xml](https://github.com/Tnni/BookStore-Website/blob/master/pom.xml)
 
 Dependency list
 ```
