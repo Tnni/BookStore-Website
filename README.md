@@ -15,6 +15,7 @@ The zip (downloaded from Github) contains our SQL file
 ## How to use:
 * Database
 The database we are using is `MySQL`
+
 Username
 ```
 root
