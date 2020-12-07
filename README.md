@@ -29,6 +29,10 @@ Default port number
 ```
 3306
 ```
+
+!!! Instruction: First put sql file in to MySQL, and then put the bookstore.war file under webapps, and then startup the Tomcat, visit website http://127.0.0.1:8080/bookstore/ (depend on your tomcat setting)
+
+
 * Dependency
 We are using Maven to manage dependencies
 The link to our [pom.xml](https://github.com/Tnni/BookStore-Website/blob/master/pom.xml)
