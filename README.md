@@ -33,7 +33,7 @@ We are using Maven to manage dependencies
 The link to our [pom.xml](https://github.com/Miemie-Yorku/The-Platform-for-Modeling-and-Optimizing-Serverless-Applications/blob/master/requirements.txt)
 Dependency list
 ```
-activation-1.1.jar
+    activation-1.1.jar
     aopalliance-repackaged-2.4.0-b10.jar
     c3p0-0.9.5.2.jar
     hk2-api-2.4.0-b10.jar
