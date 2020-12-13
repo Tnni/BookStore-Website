@@ -1,6 +1,6 @@
 # Lotus BookStore
 ## Team Members
-* Xinqi Cheng
+* Xinqi Chen
 * Yang Zhou
 * Chengxiang Gong
 
