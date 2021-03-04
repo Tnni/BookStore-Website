@@ -18,22 +18,6 @@ public class UserDAO {
 	public UserDAO() throws Exception {
 	}
 
-	public Map<String, UserBean> retrieveByTitle(String title) throws SQLException{
-		String query = "select * from kp_user where title like '%" + title +"%'";
-		Map<String, UserBean> rv = new HashMap<String, UserBean>();
-		Connection con = C3P0Util.getConnection();
-		PreparedStatement p = con.prepareStatement(query);
-		ResultSet r = p.executeQuery();
-
-		while (r.next()){
-			UserBean bean = new UserBean(r.getInt(1),r.getString(2),r.getString(3),r.getString(4),r.getString(5),r.getDate(6),r.getString(7),r.getString(8),r.getString(9));
-			rv.put(r.getString(4), bean);//nick as key
-		}	
-		r.close();
-		p.close();
-		con.close();
-		return rv;	
-	}
 
 	public UserBean retrieveByNick(String nick) throws SQLException{
 		String query = "select * from kp_user where nick='" + nick +"'";
